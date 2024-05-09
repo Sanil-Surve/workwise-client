@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./Form.css";
 
 const Form = () => {
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -71,6 +73,8 @@ const Form = () => {
         course: [],
         image: null,
       });
+      navigate("/list");
+      
     } catch (error) {
       console.error('Error submitting form:', error);
     }
