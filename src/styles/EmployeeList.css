@@ -1,0 +1,70 @@
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .search-container {
+    margin-bottom: 20px;
+  }
+  
+  .search-container input[type="text"] {
+    padding: 8px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: aquamarine;
+  }
+  
+  /* Table styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Table headers */
+  th {
+    background-color: #f2f2f2;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Table data cells */
+  td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+  }
+  
+  /* Image styles */
+  img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Alternating row background color */
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Hover effect */
+  tbody tr:hover {
+    background-color: #e9e9e9;
+  }
+  
+  .create-employee-class {
+    position: fixed;
+    top: 135px;
+    right: 20px; 
+    background-color: rgba(28, 99, 240, 0.867);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  .create-employee-class:hover {
+    background-color: rgb(18, 65, 158);;
+  }
+  
