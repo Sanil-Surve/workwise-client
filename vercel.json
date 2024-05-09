@@ -1,0 +1,11 @@
+{
+    "routes": [
+      { "src": "/update-employee/:id", "dest": "/" },
+      { "src": "/create-employee", "dest": "/" },
+      { "src": "/", "dest": "/" },
+      { "src": "/login", "dest": "/" },
+      { "src": "/home", "dest": "/" },
+      { "src": "/list", "dest": "/" },
+      { "src": "/[^.]+", "dest": "/", "status": 200 }
+    ]
+  }
