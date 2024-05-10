@@ -21,7 +21,7 @@ const updateEmployee = () => {
     const fetchEmployeeData = async () => {
       try {
         const response = await fetch(
-          `http://localhost:8080/employee/${id}`,
+          `https://employee-management-system-backend-fwko.onrender.com/employee/${id}`,
           {
             method: "GET",
           }
@@ -78,7 +78,7 @@ const updateEmployee = () => {
     e.preventDefault();
     try {
       const response = await fetch(
-        `http://localhost:8080/employee/${id}`,
+        `https://employee-management-system-backend-fwko.onrender.com/employee/${id}`,
         {
           method: "PUT",
           headers: {

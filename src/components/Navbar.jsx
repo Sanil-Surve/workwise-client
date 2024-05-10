@@ -15,7 +15,7 @@ const Navbar = () => {
 
   const handleLogout = async () => { 
     try {
-      const res = await axios.post("http://localhost:8080/sign-out");
+      const res = await axios.post("https://employee-management-system-backend-fwko.onrender.com/sign-out");
 
       console.log(res)
 

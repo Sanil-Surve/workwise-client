@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import EmployeeData from "../components/EmployeeData";
 import "../styles/EmployeeList.css";
 
-const EMPLOYEE_API = "http://localhost:8080/employees";
+const EMPLOYEE_API = "https://employee-management-system-backend-fwko.onrender.com/employees";
 
 function EmployeeList() {
   const [employees, setEmployees] = useState([]);
@@ -32,7 +32,7 @@ function EmployeeList() {
 
   const deleteEmployee = async (id) => {
     try {
-      const response = await fetch(`http://localhost:8080/employee/${id}`, {
+      const response = await fetch(`https://employee-management-system-backend-fwko.onrender.com/employee/${id}`, {
         method: 'DELETE'
       });
       const data = await response.json();
