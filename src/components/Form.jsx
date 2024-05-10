@@ -52,7 +52,7 @@ const Form = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:8080/employee', {
+      const response = await fetch('https://employee-management-system-backend-fwko.onrender.com/employee', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
