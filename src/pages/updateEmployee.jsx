@@ -218,7 +218,7 @@ const updateEmployee = () => {
       </div>
 
       <div>
-        <label>Upload Image (PNG/JPG only):</label>
+        <label>Upload Image (PNG/JPG and less than 50 KB only):</label>
         <input
           type="file"
           accept=".png, .jpg"
