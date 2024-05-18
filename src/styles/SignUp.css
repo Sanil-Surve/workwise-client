@@ -1,7 +1,7 @@
 
 /* Error message */
 .error-message {
-    color: rgba(206, 19, 19, 0.934);
+    color: rgba(240, 104, 25, 0.8);
     font-size: 14px;
     margin-top: 5px;
   }
@@ -20,7 +20,7 @@
     width: 90%;
     max-width: 400px;
     margin: 100px auto;
-    background-color: #fff;
+    background-color: #e5e7e9ea;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -28,7 +28,7 @@
   
   .container h2 {
     text-align: center;
-    color: #2f6fefb4;
+    color: #0d52e7b4;
     margin-bottom: 10px;
   }
   
@@ -40,6 +40,13 @@
   input[type="email"],
   input[type="password"] {
     width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  input[type="password"] {
+    width: 94%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
